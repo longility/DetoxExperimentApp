@@ -1,4 +1,11 @@
 import {by, element, expect} from 'detox';
+/**
+ * COVID Care Section - COVID-19 Records
+ * @link https://app.qase.io/project/IHMOB?suite=69
+ *
+ * @group covid
+ * @group crucial-ios
+ */
 describe('Example', () => {
   beforeAll(async () => {
     await device.launchApp();
